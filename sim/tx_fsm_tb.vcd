@@ -1,0 +1,190 @@
+$date
+	Sat Jun 20 13:03:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tx_fsm_tb $end
+$var wire 1 ! tx_out $end
+$var wire 1 " tx_busy $end
+$var reg 1 # baud_tick $end
+$var reg 1 $ clk $end
+$var reg 8 % data_in [7:0] $end
+$var reg 1 & rst $end
+$var reg 1 ' tx_start $end
+$scope module uut $end
+$var wire 1 # baud_tick $end
+$var wire 1 $ clk $end
+$var wire 8 ( data_in [7:0] $end
+$var wire 1 & rst $end
+$var wire 1 ' tx_start $end
+$var parameter 3 ) DATA $end
+$var parameter 3 * IDLE $end
+$var parameter 3 + PARITY $end
+$var parameter 3 , START $end
+$var parameter 3 - STOP $end
+$var reg 3 . bit_cnt [2:0] $end
+$var reg 3 / next_state [2:0] $end
+$var reg 1 0 parity_bit $end
+$var reg 8 1 shift_reg [7:0] $end
+$var reg 3 2 state [2:0] $end
+$var reg 1 " tx_busy $end
+$var reg 1 ! tx_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 -
+b1 ,
+b11 +
+b0 *
+b10 )
+$end
+#0
+$dumpvars
+b0 2
+b0 1
+00
+b0 /
+b0 .
+b0 (
+0'
+1&
+b0 %
+0$
+0#
+0"
+1!
+$end
+#10000
+1$
+#20000
+0$
+#30000
+1$
+#40000
+0$
+0&
+#50000
+1$
+#60000
+0$
+#70000
+1$
+#80000
+0$
+1#
+#90000
+1"
+b10100101 1
+b1 /
+1'
+b10100101 %
+b10100101 (
+1$
+#100000
+b1 /
+0$
+0#
+#110000
+b1 2
+0"
+b1 /
+0'
+1$
+#120000
+0$
+#130000
+0!
+1$
+#140000
+0$
+#150000
+1$
+#160000
+0$
+#170000
+1$
+#180000
+b10 /
+0$
+1#
+#190000
+b10 2
+1$
+#200000
+0$
+0#
+#210000
+1!
+1$
+#220000
+0$
+#230000
+1'
+b10101010 %
+b10101010 (
+1$
+#240000
+0$
+#250000
+0'
+1$
+#260000
+0$
+#270000
+1$
+#280000
+0$
+1#
+#290000
+b1 .
+b1010010 1
+1$
+#300000
+0$
+0#
+#310000
+0!
+1$
+#320000
+0$
+#330000
+1$
+#340000
+0$
+#350000
+1$
+#360000
+0$
+#370000
+1$
+#380000
+0$
+1#
+#390000
+b10 .
+b101001 1
+1$
+#400000
+0$
+0#
+#410000
+1!
+1$
+#420000
+0$
+#430000
+1$
+#440000
+0$
+#450000
+1$
+#460000
+0$
+#470000
+1$
